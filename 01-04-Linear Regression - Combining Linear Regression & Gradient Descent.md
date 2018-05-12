@@ -63,7 +63,7 @@ To recap:
 For linear regression the 3D graph of the cost function is <b>always</b> bowl shaped.  This is known as a <b>convex function</b>.  
 
 <p align = "center">
-  <img src=Images\lrbowl.png width=80%>
+  <img src=Images\lrbowl.PNG width=80%>
 </p>
 
 This means there is <b>no</b> local minimum, only a global minimum.
