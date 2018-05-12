@@ -1,10 +1,21 @@
-# Week 1
+# Week 01-02 Linear Regression: The Basics & Cost Function
 
 ## Linear regression
 
+### Key Ingredients
+
+<b>Hypothesis:</b> hθ(x) = θ<sub>0</sub> + θ<sub>1</sub>x
+
+<b>Parameters (aka weights / coefficients):</b> θ<sub>0</sub>, θ<sub>1</sub>
+
+<b>Cost Function:</b> J(θ<sub>0</sub>, θ<sub>1</sub>) =
+<img src=Images\1_VanG05Ab6yknqJ2bRGFzrQ.png width=50%>
+
+<b>Goal:</b> minimise J(θ<sub>0</sub>, θ<sub>1</sub>) to find optimal Hypothesis.
+
 ### What is linear regression?
 
-LR is a function that takes a single independent variable in order to predicte the value of a dependent variable. LR can be used to predict output values based on input values.
+LR is a function that takes a single independent variable in order to predict the value of a dependent variable. LR can be used to predict output values based on input values.
 
 ### How does linear regression relate to machine learning?
 
@@ -58,8 +69,11 @@ This equation works as follows:
 For each of the below, let's assume:
 
 1. θ<sub>0</sub> = 0, i.e. the function hθ(x) = θ<sub>0</sub> + θ<sub>1</sub>x passes through the coordinates (0,0).  As such, that means hθ(x) = θ<sub>0</sub> + θ<sub>1</sub>x can be simplified as hθ(x) = θ<sub>1</sub>x.
+
 2. m = 3 (i.e. our <b>training dataset</b>, has 3 results at the x and y coordinates described in (3) and (4) below).
+
 3. x<sub>0</sub> = 1, x<sub>1</sub> = 2, and x<sub>2</sub> = 3.
+
 4. y<sub>0</sub> = 1, y<sub>1</sub> = 2, and y<sub>2</sub> = 3.
 
 Like so, with each of Options A (blue), B (green) and C (orange) for the cost function plotted:
