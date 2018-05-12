@@ -136,8 +136,6 @@ Ignoring the derivative function for now:
       <img src=Images\1_ZmzSnV6xluGa42wtU7KYVA.gif width=100%>
       </p>
 
-## What is the formula for gradient descent?
-
 
 #### Useful Links
 
