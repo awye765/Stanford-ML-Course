@@ -4,6 +4,12 @@
 - [x] Brickbreaker JS tutorial
 - [ ] Asteroids tutorial
 
+## Web / Apps
+- [ ] Instagram Rails
+- [ ] Uber Eats Clone
+- [ ] iPhone Games
+- [ ] Medium React clone
+
 ## Search
 - [ ] Search engine tutorial
 
@@ -25,6 +31,7 @@
 - [ ] Spam filter tutorial
 - [ ] Genetic programming tutorial
 - [ ] Chatbot
+- [ ] Tic Tac Toe A.I.
 
 
 ## Blockchain
