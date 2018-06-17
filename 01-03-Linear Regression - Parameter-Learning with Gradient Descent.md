@@ -112,13 +112,13 @@ Ignoring the derivative function for now:
 
 2. Use gradient descent formula (see above) with θ<sub>0</sub>, θ<sub>1</sub>, which:
 
-  (a) calculates the <b>gradient</b> of a derivative function that touches the related cost function value (i.e. positive or negative gradient); and
+    (a) calculates the <b>gradient</b> of a derivative function that touches the related cost function value (i.e. positive or negative gradient); and
 
-  (b) either:
+    (b) either:
 
-      (i) <b>reduces</b> the value of θ<sub>0</sub>, θ<sub>1</sub> (if the gradient is <b>positive</b>), sliding down the slope backwards; or
+      (x) <b>reduces</b> the value of θ<sub>0</sub>, θ<sub>1</sub> (if the gradient is <b>positive</b>), sliding down the slope backwards; or
 
-      (ii) <b>increases</b> the value of  θ<sub>0</sub>, θ<sub>1</sub> (if the gradient is <b>negative</b>), sliding down the slope forwards.
+      (y) <b>increases</b> the value of  θ<sub>0</sub>, θ<sub>1</sub> (if the gradient is <b>negative</b>), sliding down the slope forwards.
 
 3. Repeat steps (1) and (2) until the gradient of the derivative function of the cost function is 0.
 
@@ -142,3 +142,5 @@ Ignoring the derivative function for now:
 - https://medium.com/ai-society/hello-gradient-descent-ef74434bdfa5
 
 - https://hackernoon.com/life-is-gradient-descent-880c60ac1be8
+
+- https://storage.googleapis.com/supplemental_media/udacityu/315142919/Gradient%20Descent.pdf

@@ -125,7 +125,6 @@ This is because:
 
   which is a 1 x (n + 1) matrix, i.e. x 1 row and (n + 1) columns, whereas before it was a (n + 1) x 1 matrix, i.e. (n + 1) rows and x 1 column.
 
-
-4. Therefore, multiplying θ<sup>T</sup> by x (i.e. θ<sup>T</sup>x) is the same as:
+5. Therefore, multiplying θ<sup>T</sup> by x (i.e. θ<sup>T</sup>x) is the same as:
 
     h<sub>θ</sub>(x) = θ<sub>0</sub> <b>x<sub>0</sub></b> + θ<sub>1</sub> x<sub>1</sub> + θ<sub>2</sub> x<sub>2</sub> + θ<sub>3</sub> x<sub>3</sub> + ... + θ<sub>n</sub> x<sub>n</sub>

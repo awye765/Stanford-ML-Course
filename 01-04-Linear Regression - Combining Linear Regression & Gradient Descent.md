@@ -58,6 +58,11 @@ To recap:
 
 7. The bit circled pink is the derivative of the cost function for θ<sub>1</sub>.
 
+8. If the derivative of the cost function is <b>positive</b>, it will <b>reduce</b> the value of θ<sub>0</sub> / θ<sub>1</sub> as applicable.  However, if the derivative of the cost function is <b>negative</b>, it will <b>increase</b> the value of θ<sub>0</sub> / θ<sub>1</sub> as applicable.
+
+9. Eventually the values of θ<sub>0</sub> and θ<sub>1</sub> will begin changing by smaller and smaller increments, at which point they will be said to "converge" once
+the derivative function reaches zero or close to zero.
+
 ## Linear Regression + Gradient descent
 
 For linear regression the 3D graph of the cost function is <b>always</b> bowl shaped.  This is known as a <b>convex function</b>.  

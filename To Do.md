@@ -9,6 +9,7 @@
 - [ ] Uber Eats Clone
 - [ ] iPhone Games
 - [ ] Medium React clone
+- [ ] Angular Weather app 
 
 ## Search
 - [ ] Search engine tutorial
@@ -35,4 +36,4 @@
 
 
 ## Blockchain
-- [ ] Blockchain tutorial
+- [ ] Blockchain tutorial (naivecoin)
