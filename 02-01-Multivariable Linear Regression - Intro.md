@@ -66,26 +66,18 @@ The multivariable linear regression hypothesis function is this:
 
 h<sub>θ</sub>(x) = θ<sub>0</sub> + θ<sub>1</sub> x<sub>1</sub> + θ<sub>2</sub> x<sub>2</sub> + θ<sub>3</sub> x<sub>3</sub> + ... + θ<sub>n</sub> x<sub>n</sub>
 
-Which can be <b>vectorised</b> using matrix multiplication to look like this:
+### Applying the Hypothesis to Multivariable Linear regression
 
-<p align = "center">
-<img src=Images\MLR.png width=100%>
-</p>
+#### Step 1: Add constant to feature vector
+For convenience, we add a <b>new</b> feature, x<sub>0</sub> = 1 for each training example x<sup>(i)</sup>.  This means that:
 
-#### How to vectorise the hypothesis
+1. For every example x<sup>(i)</sup>, you have an additional x<sub>0</sub> feature, which is a <b>constant</b>, i.e. 1;
 
-##### Step 1: Add constant to feature vector
-For convenience, we add a <b>new</b> feature, x<sub>0</sub> = 1.  This means that:
-1. For every example (<i>i</i>), you have an additional x<sub>0</sub> feature, which is a <b>constant</b>, i.e. 1;
+2. The resulting feature vector is now <b>n+1</b> rows x 1 column.  The n + 1 means that the vector includes all <b>n number of feature values + 1</b>; and
 
-2. The resulting feature vector is now <b>n+1</b>, in the sense that it includes all <b>n number of feature values + 1</b>; and
+3. The feature vector is now also <b>zero indexed</b> rather than 1 indexed.
 
-3. The feature vector is now <b>zero indexed</b> rather than 0 indexed.
-
-##### Step 2: Parameter Vector
-1. Because x<sub>0</sub> is equal to 1 and multiplied by θ<sub>0</sub>, they are both (n + 1) dimensional vectors.
-
-##### Step 3: Multiplying θ<sub>0</sub> by x<sub>0</sub>
+#### Step 2: Multiplying θ<sub>0</sub> by x<sub>0</sub>
 
 This transforms our equation:
 
@@ -95,13 +87,19 @@ into
 
 h<sub>θ</sub>(x) = θ<sub>0</sub> <b>x<sub>0</sub></b> + θ<sub>1</sub> x<sub>1</sub> + θ<sub>2</sub> x<sub>2</sub> + θ<sub>3</sub> x<sub>3</sub> + ... + θ<sub>n</sub> x<sub>n</sub>
 
-##### Step 4: Transposing
+#### Step 3: Transposing <i>vector</i>θ to the <i>matrix</i> θ<sup>T</sup>
 
-Which can be written as h<sub>θ</sub>(x) = θ<sup>T</sup>x.
+h<sub>θ</sub>(x) = θ<sub>0</sub> <b>x<sub>0</sub></b> + θ<sub>1</sub> x<sub>1</sub> + θ<sub>2</sub> x<sub>2</sub> + θ<sub>3</sub> x<sub>3</sub> + ... + θ<sub>n</sub> x<sub>n</sub>
+
+can be written as
+
+h<sub>θ</sub>(x) = θ<sup>T</sup>x
+
+in order to allow multiply a matrix of θ values by the vector of feature x values.
 
 This is because:
 
-1. We can represent the values of x and θ as two separate <b>column</b> vectors as follows:
+1. We can initially represent the values of x and θ as two separate <b>column</b> vectors as follows:
 
     <b> Column Vector for X</b>
 
@@ -119,12 +117,22 @@ This is because:
 
 3. So to multiply the transpose of θ (i.e. θ<sup>T</sup>) by x, we need to think back to our recap on Matrices, Vectors and associated operations.  
 
-4. There we learnt that the number of columns of the matrix of parameters (θ) must match the number of rows of the vector (x).  By taking the <b>transpose</b> of θ (i.e. θ<sup>T</sup>) we end up with:
+4. There we learnt that to multiply two vectors the number of columns of the matrix of parameters (θ) must match the number of rows of the vector (x).  
+
+5. By taking the <b>transpose</b> of θ (i.e. θ<sup>T</sup>) we end up with:
 
   θ<sup>T</sup> = [θ<sub>0</sub>, θ<sub>0</sub>, ... θ<sub>n</sub>]
 
   which is a 1 x (n + 1) matrix, i.e. x 1 row and (n + 1) columns, whereas before it was a (n + 1) x 1 matrix, i.e. (n + 1) rows and x 1 column.
 
+  This means that <b>number of columns of the θ<sup>T</sup> matrix (n+1)</b> match the <b>number of rows of the x vector (also n+1)</b>.
+
 5. Therefore, multiplying θ<sup>T</sup> by x (i.e. θ<sup>T</sup>x) is the same as:
 
     h<sub>θ</sub>(x) = θ<sub>0</sub> <b>x<sub>0</sub></b> + θ<sub>1</sub> x<sub>1</sub> + θ<sub>2</sub> x<sub>2</sub> + θ<sub>3</sub> x<sub>3</sub> + ... + θ<sub>n</sub> x<sub>n</sub>
+
+    <p align = "center">
+    <img src=Images\MLR_Vectorisation.png width=100%>
+    </p>
+
+\* Note in the above screenshot, there is an error.  The "(n+1) x 1 matrix" annotation should instead be "1 x (n+1)".
