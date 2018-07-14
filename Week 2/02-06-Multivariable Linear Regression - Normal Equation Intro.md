@@ -4,7 +4,7 @@
 
 In Gradient Descent for Linear Regression, we iteratively minimize cost function J(θ) to converge to the global minimum.
 
-In contrast, the <b>Normal Equation</b> on would give us a method to solve for θ analytically.  In other words, rather than needing to run an iterative algorithm, we can instead solve for the optimal value for θ all at one go, i.e. in one step you get to the optimal value right.
+In contrast, the <b>Normal Equation</b> would give us a method to solve for θ analytically.  In other words, rather than needing to run an iterative algorithm, we can instead solve for the optimal value for θ all at one go, i.e. in one step you get to the optimal value.
 
 ## How does the normal equation work?
 
@@ -38,6 +38,12 @@ Here we are trying to predict house prices based on four features: (1) Size, (2)
 
 <p align = "center">
 <img src=Images\normalequation4.png width=100%>
+</p>
+
+In the above, the part circled <b>red</b>, is the formula that provides the value of θ that minimizes your cost function.
+
+<p align = "center">
+<img src=Images\normalequation7.png width=100%>
 </p>
 
 ## When to use Normal Equation vs. Gradient Descent?

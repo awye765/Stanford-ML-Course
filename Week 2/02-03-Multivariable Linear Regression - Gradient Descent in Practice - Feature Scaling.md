@@ -40,6 +40,18 @@ This transforms both sets of features for θ<sub>i</sub> to a range of 0 ≤ θ<
 
 <b>Dividing</b> the input values by the range (i.e. the maximum value minus the minimum value) of the input variables, resulting in a new range of just 1.
 
+#### Why use feature scaling?
+
+It speeds up gradient descent by making it require <b>fewer</b> iterations to get to a good solution.
+
+It:
+
+- Does <b>not</b> speed up solving for θ using the normal equation.  The magnitude of feature values are <b>insignificant</b> in terms of computational cost.
+
+- Does <b>not</b> prevent the matrix X<sup>T</sup>X (used in the normal equation) from being non-invertible (singular / degenerate).
+
+- Is <b>not</b> necessary to prevent gradient descent from getting stuck in local optima.  The cost function J(θ) for linear regression has no local optima.  
+
 ## What is Mean Normalization?
 
 <b>Subtracting</b> the average value from an input variable from the values for that input variable, resulting in a new average value for the input variable of just zero.
