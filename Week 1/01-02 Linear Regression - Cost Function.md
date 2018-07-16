@@ -9,7 +9,7 @@
 <b>Parameters (aka weights / coefficients):</b> θ<sub>0</sub>, θ<sub>1</sub>
 
 <b>Cost Function:</b> J(θ<sub>0</sub>, θ<sub>1</sub>) =
-<img src=Images\1_VanG05Ab6yknqJ2bRGFzrQ.png width=50%>
+<img src=../Images\1_VanG05Ab6yknqJ2bRGFzrQ.png width=50%>
 
 <b>Goal:</b> minimise J(θ<sub>0</sub>, θ<sub>1</sub>) to find optimal Hypothesis.
 
@@ -42,7 +42,7 @@ We can measure the accuracy of our hypothesis function by using a cost function.
 One of the most common cost functions is the <b>mean squared error</b>.  In ML the cost function is referred to as J(θ)
 
 <p align = "center">
-<img src=Images\1_VanG05Ab6yknqJ2bRGFzrQ.png width=50%>
+<img src=../Images\1_VanG05Ab6yknqJ2bRGFzrQ.png width=50%>
 </p>
 
 - m = number of training examples
@@ -61,7 +61,7 @@ This equation works as follows:
 5. Fifth, multiply the above by <b> 1 / 2m </b>.
 
 <p align = "center">
-<img src=Images\R2YF5Lj3EeajLxLfjQiSjg_110c901f58043f995a35b31431935290_Screen-Shot-2016-12-02-at-5.23.31-PM.png width=50%>
+<img src=../Images\R2YF5Lj3EeajLxLfjQiSjg_110c901f58043f995a35b31431935290_Screen-Shot-2016-12-02-at-5.23.31-PM.png width=50%>
 </p>
 
 ### Worked example of cost function in action
@@ -79,7 +79,7 @@ For each of the below, let's assume:
 Like so, with each of Options A (blue), B (green) and C (orange) for the cost function plotted:
 
 <p align = "center">
-<img src=Images\CostFunction.PNG width=50%>
+<img src=../Images\CostFunction.PNG width=50%>
 </p>
 
 The calculations for each cost function are below:

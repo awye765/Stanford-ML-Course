@@ -9,7 +9,7 @@ In contrast, the <b>Normal Equation</b> would give us a method to solve for θ a
 ## How does the normal equation work?
 
 <p align = "center">
-<img src=Images\normalequation3.png width=100%>
+<img src=../Images\normalequation3.png width=100%>
 </p>
 
 To minimize a function, you take the derivative function and set it to zero.
@@ -37,13 +37,13 @@ The bit in blue handwriting minimizes a the quadratic function (shown in the "U"
 Here we are trying to predict house prices based on four features: (1) Size, (2) No. of Bedrooms, (3) No. of floors and (4) Age.
 
 <p align = "center">
-<img src=Images\normalequation4.png width=100%>
+<img src=../Images\normalequation4.png width=100%>
 </p>
 
 In the above, the part circled <b>red</b>, is the formula that provides the value of θ that minimizes your cost function.
 
 <p align = "center">
-<img src=Images\normalequation7.png width=100%>
+<img src=../Images\normalequation7.png width=100%>
 </p>
 
 ## When to use Normal Equation vs. Gradient Descent?
@@ -54,5 +54,5 @@ So if we have a very large number of features, the normal equation will be slow.
 Other distinctions in the below comparison table:
 
 <p align = "center">
-<img src=Images\normalequation6.png width=100%>
+<img src=../Images\normalequation6.png width=100%>
 </p>

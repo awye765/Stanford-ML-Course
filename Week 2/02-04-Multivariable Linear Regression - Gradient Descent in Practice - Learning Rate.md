@@ -35,18 +35,18 @@ Gradient descent will descend upon convergence:
 #### Learning Rate <u>Correct</u>
 
 <p align = "center">
-<img src=Images\learningrate1.png width=100%>
+<img src=../Images\learningrate1.png width=100%>
 </p>
 
 #### Learning Rate <u>Incorrect</u>
 <p align = "center">
-<img src=Images\learningrate3.png width=100%>
+<img src=../Images\learningrate3.png width=100%>
 </p>
 
 #### Other Examples
 
 <p align = "center">
-<img src=Images\learningrate2.png width=100%>
+<img src=../Images\learningrate2.png width=100%>
 </p>
 
 ## If α is very small

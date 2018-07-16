@@ -5,7 +5,7 @@
 Combining multivariable linear regression and gradient descent looks like this in terms of formula:
 
 <p align = "center">
-<img src=Images\MVLR_Gradient_Descent.png width=100%>
+<img src=../Images\MVLR_Gradient_Descent.png width=100%>
 </p>
 
 What this means is:
@@ -19,17 +19,17 @@ What this means is:
 4. Lastly, we apply gradient descent to J(θ), which means using gradient descent to simultaneously minimise the cost function for each value of θ from θ<sub>0</sub> to θ<sub>n</sub>:
 
 <p align = "center">
-<img src=Images\MLVR_Gradient_Descent3.PNG width=90%>
+<img src=../Images\MLVR_Gradient_Descent3.PNG width=90%>
 </p>
 
 5. And working that out, will looks like this:
 
 <p align = "center">
-<img src=Images\MLVR_Gradient_Descent2.PNG width=90%>
+<img src=../Images\MLVR_Gradient_Descent2.PNG width=90%>
 </p>
 
 6. Side by side, gradient descent with <b>one</b> variable vs. gradient descent with <b>1+</b> variables looks like this:
 
 <p align = "center">
-<img src=Images\MLVR_Gradient_Descent4.PNG width=90%>
+<img src=../Images\MLVR_Gradient_Descent4.PNG width=90%>
 </p>

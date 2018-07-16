@@ -17,7 +17,7 @@
   e.g. the below, which is an R<sup>4 x 2</sup> matrix:
 
   <p align = "center">
-  <img src=Images\matrix1.png width=100%>
+  <img src=../Images\matrix1.png width=100%>
   </p>
 
 4. Matrices are a way to organise, index and access data.  
@@ -45,7 +45,7 @@ If an object is described as a <b>scalar</b> this means it is a <b>single</b> ob
 Can only add matrices of the <b>same</b> dimensions, like so:
 
 <p align = "center">
-<img src=Images\image[3].png width=100%>
+<img src=../Images\image[3].png width=100%>
 </p>
 
 ## Scalar Multiplication
@@ -53,7 +53,7 @@ Can only add matrices of the <b>same</b> dimensions, like so:
 Multiplying a matrix by a scalar (i.e. real number) means multiplying each element in the matrix by that scalar, like so:
 
 <p align = "center">
-<img src=Images\orderofops.png width=100%>
+<img src=../Images\orderofops.png width=100%>
 </p>
 
 ## Order of Operations
@@ -64,7 +64,7 @@ Multiplying a matrix by a scalar (i.e. real number) means multiplying each eleme
 4. Subtraction
 
 <p align = "center">
-<img src=Images\image[4].png width=80%>
+<img src=../Images\image[4].png width=80%>
 </p>
 
 ## Matrix x Vector Multiplication
@@ -72,7 +72,7 @@ Multiplying a matrix by a scalar (i.e. real number) means multiplying each eleme
 To multiply a matrix by a vector, the <b>number of columns</b> of the matrix (n) must match the <b>number of rows</b> of the vector</b>, e.g.
 
 <p align = "center">
-<img src=Images\matrixbyvector.png width=80%>
+<img src=../Images\matrixbyvector.png width=80%>
 </p>
 
 The resulting vector will have the same number of rows as the matrix.
@@ -80,7 +80,7 @@ The resulting vector will have the same number of rows as the matrix.
 A worked example:
 
 <p align = "center">
-<img src=Images\multiplyingmatrices.png width=80%>
+<img src=../Images\multiplyingmatrices.png width=80%>
 </p>
 
 ## Matrix x Vector Multiplication - Linear Regression
@@ -88,7 +88,7 @@ A worked example:
 A neat trick with linear regression: <b>prediction = Data Matrix x parameters</b>, e.g.
 
 <p align = "center">
-<img src=Images\Image[7].png width=80%>
+<img src=../Images\Image[7].png width=80%>
 </p>
 
 So in the above, the extra columns with the 1s is added to generate the θ<sub>0</sub> values.  More computationally efficient than using lots of for loops.
@@ -98,7 +98,7 @@ So in the above, the extra columns with the 1s is added to generate the θ<sub>0
 To multiply a matrix by a matrix, the <b>number of columns</b> of matrix 1 must match <b>the number of rows</b> of matrix 2, e.g.
 
 <p align = "center">
-<img src=Images\matrixbymatrix2.png width=80%>
+<img src=../Images\matrixbymatrix2.png width=80%>
 </p>
 
 Essentially, you end up breaking matrix 2 into multiple vectors and multiplying matrix 1 by each such vector, then combining the results back into a matrix.
@@ -106,7 +106,7 @@ Essentially, you end up breaking matrix 2 into multiple vectors and multiplying 
 A worked example:
 
 <p align = "center">
-<img src=Images\matrixbymatrix.png width=80%>
+<img src=../Images\matrixbymatrix.png width=80%>
 </p>
 
 ## Matrix x. Matrix Multiplication - Linear regression
@@ -122,7 +122,7 @@ We can do this by having:
 A worked example:
 
 <p align = "center">
-<img src=Images\matrixbymatrixlr.png width=80%>
+<img src=../Images\matrixbymatrixlr.png width=80%>
 </p>
 
 ## Matrix Multiplication Properties
@@ -173,7 +173,7 @@ For real numbers, <b>not everything has an inverse</b>, e.g. 0 does not have an 
 The inverse of a matrix can be found, typically easiest using computer software:
 
 <p align = "center">
-<img src=Images\inversematrix1.png width=80%>
+<img src=../Images\inversematrix1.png width=80%>
 </p>
 
 ## Transpose Operations
@@ -191,7 +191,7 @@ The transpose of a matrix is expressed A<sup>T</sup>.
 A worked example:
 
 <p align = "center">
-<img src=Images\matrixtranspose.png width=80%>
+<img src=../Images\matrixtranspose.png width=80%>
 </p>
 
 ## Dividing

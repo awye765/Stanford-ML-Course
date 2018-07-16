@@ -47,7 +47,7 @@ The multivariable version of our LR function is as follows:
 
 #### Example:
 <p align = "center">
-<img src=Images\MLR_Notation.png width=100%>
+<img src=../Images\MLR_Notation.png width=100%>
 </p>
 
 ##### n = 4
@@ -56,9 +56,9 @@ The multivariable version of our LR function is as follows:
 * x<sub>3</sub> = no. of floors
 * x<sub>4</sub> = age of home
 
-##### x<sup>2</sup> = <img src=Images\vector.png width=20%>
+##### x<sup>2</sup> = <img src=../Images\vector.png width=20%>
 
-##### x<sub>3</sub><sup>2</sup> = <img src=Images\vectorx2.png width=20%>
+##### x<sub>3</sub><sup>2</sup> = <img src=../Images\vectorx2.png width=20%>
 
 ### Hypothesis
 
@@ -105,7 +105,7 @@ This is because:
 
     A zero indexed column vector of (n + 1) x 1 features, i.e. where there are (n + 1) rows and x 1 column (the +1 being the constant):
 
-   <img src=Images\xvector.png width=50%>
+   <img src=../Images\xvector.png width=50%>
 
    and
 
@@ -113,7 +113,7 @@ This is because:
 
    A zero indexed column vector of (n + 1) x 1 parameters, i.e. where there are (n + 1) rows and x 1 column (the +1 being the constant):
 
-   <img src=Images\thetavector.png width=50%>
+   <img src=../Images\thetavector.png width=50%>
 
 3. So to multiply the transpose of θ (i.e. θ<sup>T</sup>) by x, we need to think back to our recap on Matrices, Vectors and associated operations.  
 
@@ -132,7 +132,7 @@ This is because:
     h<sub>θ</sub>(x) = θ<sub>0</sub> <b>x<sub>0</sub></b> + θ<sub>1</sub> x<sub>1</sub> + θ<sub>2</sub> x<sub>2</sub> + θ<sub>3</sub> x<sub>3</sub> + ... + θ<sub>n</sub> x<sub>n</sub>
 
     <p align = "center">
-    <img src=Images\MLR_Vectorisation.png width=100%>
+    <img src=../Images\MLR_Vectorisation.png width=100%>
     </p>
 
 \* Note in the above screenshot, there is an error.  The "(n+1) x 1 matrix" annotation should instead be "1 x (n+1)".

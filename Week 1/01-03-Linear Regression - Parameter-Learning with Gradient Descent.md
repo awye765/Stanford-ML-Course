@@ -19,7 +19,7 @@ Gradient descent is a method to <i>learn</i> the parameters that optimise a cost
 Plotted in 3D, where θ<sub>0</sub>, θ<sub>1</sub> are the x and y axis and the cost function values are the z axis, the different values of each cost function (i.e. J(θ<sub>0</sub>, θ<sub>1</sub>)) for each combination of θ<sub>0</sub> and θ<sub>1</sub> optimised via gradient descent looks like this:
 
 <p align = "center">
-<img src=Images\Image[16].png width=50%>
+<img src=../Images\Image[16].png width=50%>
 </p>
 
 ## The formula for gradient descent
@@ -27,7 +27,7 @@ Plotted in 3D, where θ<sub>0</sub>, θ<sub>1</sub> are the x and y axis and the
 The formula for gradient descent is as follows:
 
 <p align = "center">
-<img src=Images\Image[17].png width=90%>
+<img src=../Images\Image[17].png width=90%>
 </p>
 
 #### Notation and application explained
@@ -42,14 +42,14 @@ The formula for gradient descent is as follows:
 - α (alpha) is a number called the <b>learning rate</b>.  It controls how big a step you take.  If α is large, you have an aggressive gradient descent.  If α is small you have less aggressive gradient descent.
 
 <p align = "center">
-<img src=Images\graddescentlargesmall.png width=80%>
+<img src=../Images\graddescentlargesmall.png width=80%>
 </p>
 
-- <img src=Images\Image[20].png width=10%> is a <b>derivative function</b>.
+- <img src=../Images\Image[20].png width=10%> is a <b>derivative function</b>.
 
 - a <b>derivative function</b> calculates the gradient of a straight line <b>tangent</b> adjacent to a point on a graph, e.g. the red line below is a <b>derivative function</b> of J(θ<sub>1</sub>):
 <p align = "center">
-<img src=Images\deriv.png width=50%>
+<img src=../Images\deriv.png width=50%>
 </p>
 
 - depending on the value of (θ<sub>1</sub>), the derivative function (i.e. slope of the tangent) will either be <b>positive</b> or <b>negative</b>, e.g. the <b>positive</b> gradient shown in the above graph.
@@ -61,7 +61,7 @@ The formula for gradient descent is as follows:
 - this sliding down the slope for different θ<sub>1</sub> values can be visualised for J(θ<sub>1</sub>) (i.e. where θ<sub>0</sub> = 0) as follows:
 
   <p align = "center">
-  <img src=Images\graddescent.png width=100%>
+  <img src=../Images\graddescent.png width=100%>
   </p>
 
 #### Minimums and Maximums
@@ -77,13 +77,13 @@ The formula for gradient descent is as follows:
 - Visualised by example, these are as follows:
 
 <p align = "center">
-<img src=Images\maxmin.png width=80%>
+<img src=../Images\maxmin.png width=80%>
 </p>
 
 #### How to use the formula correctly
 
 <p align = "center">
-<img src=Images\Image[17].png width=90%>
+<img src=../Images\Image[17].png width=90%>
 </p>
 
 Ignoring the derivative function for now:
@@ -97,13 +97,13 @@ Ignoring the derivative function for now:
 4. For instance:
 
 <p align = "center">
-<img src=Images\Capture.png width=90%>
+<img src=../Images\Capture.png width=90%>
 </p>
 
 5. Then the answer is:
 
 <p align = "center">
-<img src=Images\Answer.png width=50%>
+<img src=../Images\Answer.png width=50%>
 </p>
 
 ## How to do gradient descent
@@ -127,13 +127,13 @@ Ignoring the derivative function for now:
 5. In two dimensions, where J(θ<sub>1</sub>) (i.e. where θ<sub>0</sub> = 0), gradient descent looks like this depending on which value of θ<sub>1</sub> is chosen as the starting value:
 
       <p align = "center">
-      <img src=Images\graddescent.png width=100%>
+      <img src=../Images\graddescent.png width=100%>
       </p>
 
       or in motion, something like this:
 
       <p align = "center">
-      <img src=Images\1_ZmzSnV6xluGa42wtU7KYVA.gif width=100%>
+      <img src=../Images\1_ZmzSnV6xluGa42wtU7KYVA.gif width=100%>
       </p>
 
 

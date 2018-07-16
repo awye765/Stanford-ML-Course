@@ -11,7 +11,7 @@ Gradient descent will descend upon convergence:
 For instance:
 
 <p align = "center">
-<img src=Images\feature_scaling_mean_normalization0.png width=70%>
+<img src=../Images\feature_scaling_mean_normalization0.png width=70%>
 </p>
 
 Because the two ranges (i.e. square footage size and number of rooms) are widly different, the resulting topology is skewed and narrow.  This makes gradient descent less efficient at finding the global minimum for θ<sub>0</sub> and θ<sub>1</sub>.
@@ -31,7 +31,7 @@ Two techniques help with this: <b>Feature Scaling</b> and <b>Mean Normalization<
 Doing this for the above example results in this:
 
 <p align = "center">
-<img src=Images\feature_scaling_mean_normalization0b.png width=70%>
+<img src=../Images\feature_scaling_mean_normalization0b.png width=70%>
 </p>
 
 This transforms both sets of features for θ<sub>i</sub> to a range of 0 ≤ θ<sub>i</sub> ≤ 1.
@@ -61,7 +61,7 @@ It:
 The formula to implement these is this:
 
 <p align = "center">
-<img src=Images\feature_scaling_mean_normalization.png width=30%>
+<img src=../Images\feature_scaling_mean_normalization.png width=30%>
 </p>
 
 Where:
@@ -77,5 +77,5 @@ Where:
 For example:
 
 <p align = "center">
-<img src=Images\feature_scaling_mean_normalization2.png width=100%>
+<img src=\Images\feature_scaling_mean_normalization2.png width=100%>
 </p>

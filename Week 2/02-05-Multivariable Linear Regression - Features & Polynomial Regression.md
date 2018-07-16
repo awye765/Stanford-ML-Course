@@ -53,13 +53,13 @@ Polynomial Regression is an attempt to create a <b>polynomial function</b> that 
 Polynomial Regression should be used when the data does not appear to have a straight line hypothesis, e.g.
 
 <p align = "center">
-<img src=Images\polynomialregression1.png width=100%>
+<img src=../Images\polynomialregression1.png width=100%>
 </p>
 
 For instance:
 
 <p align = "center">
-<img src=Images\polynomialregression2.png width=100%>
+<img src=../Images\polynomialregression2.png width=100%>
 </p>
 
 ## How to use Polynomial Regression?
