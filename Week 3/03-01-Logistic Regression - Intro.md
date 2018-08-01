@@ -1,4 +1,4 @@
-# Week 03-01 Logistic Regression - Intro Part 1
+# Week 03-01 Logistic Regression - Intro
 
 ### What is Logistic Regression?
 
@@ -29,7 +29,7 @@ The 0 represents the "Negative Class" (e.g. benign tumour).  The 1 represents th
 #### Diagrammatically vs. Linear regression
 
 <p align = "center">
-<img src=../Images\linreg1.png width=50%>
+<img src=..Images\linreg1.png width=50%>
 </p>
 
 <p align = "center">
