@@ -22,7 +22,7 @@ Explanation:
 
 2. g(z) < 0.5 whenever z < 0.
 
-2. z represents θ<sup>T</sup>x, and g(z) is our representation of the sigmoid function for logistic regression.
+2. z represents θ<sup>T</sup>x, and g(z) is our representation of the sigmoid function for logistic regression, which always outputs ≥ 0.5 if its input is ≥ 0 and, vice versa, always outputs < 0.5 if its input is < 0.
 
 3. Therefore, if h<sub>θ</sub>(x) = g(θ<sup>T</sup>x).
 
