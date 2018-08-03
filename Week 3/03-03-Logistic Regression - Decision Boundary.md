@@ -1,4 +1,4 @@
-# Week 03-01 Logistic Regression - Decision Boundary
+# Week 03-03 Logistic Regression - Decision Boundary
 
 ## The Issue
 
@@ -12,7 +12,7 @@ When trying to predict y = 1 or 0, we need to determine a <b>decision boundary</
 
 #### How is the decision boundary determined?
 
-<p align = "left">
+<p align = "center">
 <img src=../Images\logregression7.png width=100%>
 </p>
 

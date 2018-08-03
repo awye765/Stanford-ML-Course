@@ -1,4 +1,4 @@
-# Week 03-01 Logistic Regression - Hypothesis Representation
+# Week 03-02 Logistic Regression - Hypothesis Representation
 
 ## The Issue
 

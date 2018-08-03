@@ -9,15 +9,15 @@
 - [ ] Uber Eats Clone
 - [ ] iPhone Games
 - [ ] Medium React clone
-- [ ] Angular Weather app 
+- [ ] Angular Weather app
 
 ## Search
 - [ ] Search engine tutorial
 
 ## ML Andrew Ng Course
 - [x] Week 1
-- [ ] Week 2
-- [ ] Week 3
+- [x] Week 2
+- [x] Week 3
 - [ ] Week 4
 - [ ] Week 5
 - [ ] Week 6
@@ -29,11 +29,13 @@
 
 ## ML Misc
 - [ ] Chess A.I. tutorial
-- [ ] Spam filter tutorial
-- [ ] Genetic programming tutorial
+- [ ] Spam filter tutorial (OR book)
+- [ ] Genetic programming tutorial (OR book)
 - [ ] Chatbot
 - [ ] Tic Tac Toe A.I.
 
+## ML Maths
+- [ ] Khan Academy or similar re calculus and derivatives
 
 ## Blockchain
 - [ ] Blockchain tutorial (naivecoin)
