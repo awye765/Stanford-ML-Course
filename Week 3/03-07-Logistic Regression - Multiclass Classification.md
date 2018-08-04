@@ -1,47 +1,53 @@
-# Week 03-07 Logistic Regression - Advanced Optimization for Logistic Regression
+# Week 03-07 Logistic Regression - Multiclass Classification
 
-## Alternatives to Gradient descent
+## What is multiclass classification?
 
-Gradient Descent for Logistic Regression does not scale particularly well in terms of efficiency.  Instead, other approaches exist which are optimized for scalable machine learning.  These include:
-
-1. Conjugate Gradient descent
-
-2. Broyden-Fletcher-Goldfarb-Shanno algorithm ("<b>BFGS</b>")
-
-3. Limited Memory BFGS algorithm ("<b>L-BFGS</b>")
-
-
-|<b>Advantages</b> | <b>Disadvantages</b>|
-|------------------|---------------------|
-|  No need to manually pick | More complex
-| | Often faster than Gradient descent
-
-Octave and other ML libraries provide these optimisation algorithms.
-
-## In Octave
-
-In Octave we need a function that evaluates the following two functions for a given input value of θ:
-
-J(θ), i.e. the `jVal` argument in the below code
-
-and
-
-<img src=../Images\logregressionGradientDescent19.png width=10%>, i.e. the `gradient` argument in the below code.
-
-Together this looks like this:
+This is logistic regression for classification of multiple classes, e.g. email foldering / tagging such as (1) Work, (2) Friends, (3) Family and (4) Hobby.
 
 <p align = "center">
-<img src=../Images\logregressionGradientDescent17.png width=100%>
+<img src=../Images\logregressionMulticlass20.png width=100%>
 </p>
+
+Multiclass Classification is also known as <b>one vs. all</b> or <b>one vs. rest</b>.
+
+## How does it work?
+
+Previously, we considered how logistic regression could be used for binary classification, i.e. two categories, represented as y = {0, 1}.
+
+For multiclass classification we need to classify 2+ classes, represented as y = {0, 1, ... n}.  Since y = {0, 1, ... n}, we divide our problem into n + 1 (+1 because the index starts at 0) binary classification problems; in each one we predict the probability that "y" is a member of one class:
+
+1. y ∈ {0, 1, ... n}
+
+2. h<sub>θ</sub><sup>(0)</sup>(x) = P(y = 0 | x; θ).
+
+3. h<sub>θ</sub><sup>(1)</sup>(x) = P(y = 1 | x; θ).
+
+    ...
+
+4. h<sub>θ</sub><sup>(n)</sup>(x) = P(y = n | x; θ).
+
+5. Prediction = max (i) for h<sub>θ</sub><sup>(i)</sup>(x)
+
+So for a 3 class multiclass classification we:
+
+1. Turn training set into <b>three</b> separate binary classification models:
 
 <p align = "center">
-<img src=../Images\logregressionGradientDescent18.png width=100%>
+<img src=../Images\logregressionMulticlass22.png width=90%>
 </p>
 
-Octave comes with the `finmunc()` optimisation algorithm with the `optimset()` function that creates an object containing the options we want to send to `finmunc()`:
+2. Which in formula are:
 
-    options = optimset('GradObj', 'on', 'MaxIter', 100);
-    initialTheta = zeros(2,1);
-        [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
+    h<sub>θ</sub><sup>(0)</sup>(x) = P(y = 0 | x; θ).
 
-In the above, we give to the function `fminunc()` our cost function, our initial vector of theta values, and the "options" object that we created beforehand.
+    h<sub>θ</sub><sup>(1)</sup>(x) = P(y = 1 | x; θ).
+
+    h<sub>θ</sub><sup>(2)</sup>(x) = P(y = 2 | x; θ).
+
+    h<sub>θ</sub><sup>(3)</sup>(x) = P(y = 3 | x; θ).
+
+2. And train a logistic regression classifiers, h<sub>c</sub><sup>(i)</sup>(x) class i to predict the probability that y = i.
+
+3. On a new input x, to make a prediction, pick the class i that maximises:
+
+    max (i) for h<sub>θ</sub><sup>(i)</sup>(x)

@@ -63,9 +63,9 @@ Explanation:
 
     c. predict "y = 1" if 5 - x<sub>1</sub> ≥ 0
 
-    d. predict "y = 1" if x<sub>1</sub> ≥ 0
+    d. which is same as saying, predict "y = 1" if x<sub>1</sub> ≤ 5
 
-    e. predict "y = 0" if x<sub>1</sub> < 0
+    e. and likewise same as saying predict "y = 0" if x<sub>1</sub> > 5
 
     <p align = "left">
     <img src=../Images\logregression9.png width=30%>

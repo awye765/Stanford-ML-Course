@@ -39,3 +39,11 @@
 
 ## Blockchain
 - [ ] Blockchain tutorial (naivecoin)
+
+## Useful Resources
+
+- https://ml-cheatsheet.readthedocs.io/en/latest/index.html
+
+- https://medium.com/@lahorekid/cheat-sheet-for-andrew-ngs-machine-learning-course-on-coursera-9933ee3b608f
+
+- http://christiansch.github.io/machine-learning-cheat-sheet/index.html 
