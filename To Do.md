@@ -46,4 +46,6 @@
 
 - https://medium.com/@lahorekid/cheat-sheet-for-andrew-ngs-machine-learning-course-on-coursera-9933ee3b608f
 
-- http://christiansch.github.io/machine-learning-cheat-sheet/index.html 
+- http://christiansch.github.io/machine-learning-cheat-sheet/index.html
+
+- https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5

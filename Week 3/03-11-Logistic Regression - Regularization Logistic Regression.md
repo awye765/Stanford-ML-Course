@@ -1,4 +1,4 @@
-# Week 03-11 Logistic Regression - Regularization & Logistic Regression
+# Week 03-11 Logistic Regularization & Logistic Regression
 
 ## Regularization & Gradient Descent
 
