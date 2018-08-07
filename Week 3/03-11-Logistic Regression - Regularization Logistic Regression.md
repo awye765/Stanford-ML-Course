@@ -22,7 +22,7 @@ The above takes our original cost function, see below:
 
 The second sum, <img src=../Images\logregressionRegularization18.png width=15%>, means to <b>explicitly exclude</b> the bias term θ<sub>0</sub>.  
 
-In other words, the θ vector is indexed from 0 to n (holding n + 1 values, θ<sub>0</sub> through θ<sub>n</sub>), and this sum explicitly skips θ<sub>0</sub>, by running from 1 to n, skipping 0.  Thus when computing the equation we should continuously update the two following equations:
+In other words, the θ vector is indexed from 0 to n (holding n + 1 values, θ<sub>0</sub> through θ<sub>n</sub>), and this sum explicitly skips θ<sub>0</sub>, by running from 1 to n.  Thus when computing the equation we should continuously update the two following equations:
 
 <p align = "center">
 <img src=../Images\logregressionRegularization17.png width=100%>

@@ -9,7 +9,7 @@
 - [ ] Uber Eats Clone
 - [ ] iPhone Games
 - [ ] Medium React clone
-- [ ] Angular Weather app
+- [ ] Angular Weather apps
 
 ## Search
 - [ ] Search engine tutorial
@@ -26,6 +26,10 @@
 - [ ] Week 9
 - [ ] Week 10
 - [ ] Week 11
+
+#### Useful Resources
+
+- https://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
 
 ## ML Misc
 - [ ] Chess A.I. tutorial
