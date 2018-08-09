@@ -1,4 +1,4 @@
-# Week 04-91 Neural Networks Representation - Intro
+# Week 04-91 Neural Networks Representation - Intro & Model Representation 1
 
 ## What is a neuron?
 
@@ -24,7 +24,7 @@ A neural network is <b>simply a network of neurons</b>.
 
 #### A simple neural network
 
-The below is a simple neural network.  Note x<sub>0</sub> is our "<b>bias unit</b>" and always equal to 1.  In neural networks we use the same logistic function as in logistic regression, i.e. the sigmoid (logistic) activation function described below:
+The below is a simple neural network.  Note x<sub>0</sub> is our "<b>bias unit</b>" and always equal to 1.  In neursal networks we use the same logistic function as in logistic regression, i.e. the sigmoid (logistic) activation function described below:
 
 <p align = "center">
 <img src=../Images\neuralnetworks4.PNG width=100%>
@@ -55,6 +55,10 @@ Explanation of Notation:
 3. The <b>output</b> layer is simply hƟ(x).
 
 ### Neural Networks notation
+
+<p align = "center">
+<img src=../Images\neuralnetworks6.PNG width=100%>
+</p>
 
 The notation for neural networks can get confusing. It is explained as follows:
 
@@ -92,8 +96,42 @@ The notation for neural networks can get confusing. It is explained as follows:
 
     (c\) Dimension of Ɵ<sup>1</sup> is 3 x 4, i.e. s<sub>j+1</sub> x (s<sub>j</sub> + 1)
 
+5. We have to compute the activation for each node, which depends on:
+
+    (a) the input(s) to the node;
+
+    AND
+
+    (b) the parameter associated with that node (from the Ɵ vector associated with that layer).
+
+6. Therefore, we calculate each of the layer 2 activations in the above example based on the input values plus the bias term (which is equal to 1).
+
+7. The activation value of each layer 2 node is equal to the <b>sigmoid function applied to the linear combination of inputs</b>.
+
+8. For the <b>three input units</b> (x<sub>1</sub>, x<sub>2</sub> and x<sub>3</sub>):
+
+    (a) Ɵ<sup>(1)</sup> is the matrix of parameters governing the mapping of the input layer to the hidden layer.
+
+    (b) Ɵ<sup>(1)</sup> here is a 3 x 4 matrix.
+
+9.  For the <b>three hidden units</b> (a<sub>1</sub><sup>(2)</sup>, a<sub>2</sub><sup>(2)</sup> and a<sub>3</sub><sup>(2)</sup>):
+
+    (a) Ɵ<sup>(2)</sup> is the matrix of parameters governing the mapping of the input units to hidden units.
+
+    (b) Ɵ<sup>(2)</sup> here is a 1 x 4 matrix (i.e. row vector).
+
+10. With regard to the Ɵ notation, this can be a little confusing as not explained in the videos very clearly.  To break this down, consider Ɵ<sub>ji</sub><sup>1</sup> - this breaks down as follows:
+
+    (a) j = the jth unit in layer 1 + 1 (ranges from 1 to the number of units in layer 1 + 1)
+
+    (b) i = number of units in layer 1 (ranges from 0 to number of units in layer 1)
+
+    (c\) = the layer you're <b>moving from</b>.
+
+Concretely, this comes together as follows:
+
 <p align = "center">
-<img src=../Images\neuralnetworks6.PNG width=100%>
+<img src=../Images\neuralnetwork10.PNG width=100%>
 </p>
 
 ## Why can't we simply use linear or logistic regression?
