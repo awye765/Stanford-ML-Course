@@ -1,4 +1,4 @@
-# Week 04-91 Neural Networks Representation - Intro & Model Representation 1
+# Week 04-01 Neural Networks - Intro & Model Representation - Part 1
 
 ## What is a neuron?
 
@@ -24,7 +24,7 @@ A neural network is <b>simply a network of neurons</b>.
 
 #### A simple neural network
 
-The below is a simple neural network.  Note x<sub>0</sub> is our "<b>bias unit</b>" and always equal to 1.  In neursal networks we use the same logistic function as in logistic regression, i.e. the sigmoid (logistic) activation function described below:
+The below is a simple neural network.  Note x<sub>0</sub> is our "<b>bias unit</b>" and always equal to 1.  In neural networks we use the same logistic function as in logistic regression, i.e. the sigmoid (logistic) activation function described below:
 
 <p align = "center">
 <img src=../Images\neuralnetworks4.PNG width=100%>
@@ -42,9 +42,9 @@ The below is a more complex neural network, and includes a "<b>Hidden Layer</b>"
 
 Explanation of Notation:
 
-1. The <b>input</b> layer is denoted by x<sub>1</sub>, x<sub>2</sub>, and x<sub>3</sub>.
+1. The <b>input</b> layer is denoted by x<sub>0</sub>, x<sub>1</sub>, x<sub>2</sub>, and x<sub>3</sub>.
 
-2. The <b>hidden</b> layer is denoted by a<sub>1</sub><sup>2</sup>, a<sub>2</sub><sup>2</sup> and a<sub>3</sub><sup>2</sup>.  Hidden layers have the following charactertistics:
+2. The <b>hidden</b> layer is denoted by a<sub>1</sub><sup>2</sup>, a<sub>2</sub><sup>2</sup> and a<sub>3</sub><sup>2</sup>.  Hidden layers have the following characteristics:
 
     (a) Intermediate layer(s) of nodes between the input and output layers.
 
@@ -120,15 +120,7 @@ The notation for neural networks can get confusing. It is explained as follows:
 
     (b) Ɵ<sup>(2)</sup> here is a 1 x 4 matrix (i.e. row vector).
 
-10. With regard to the Ɵ notation, this can be a little confusing as not explained in the videos very clearly.  To break this down, consider Ɵ<sub>ji</sub><sup>1</sup> - this breaks down as follows:
-
-    (a) j = the jth unit in layer 1 + 1 (ranges from 1 to the number of units in layer 1 + 1)
-
-    (b) i = number of units in layer 1 (ranges from 0 to number of units in layer 1)
-
-    (c\) = the layer you're <b>moving from</b>.
-
-Concretely, this comes together as follows:
+10. With regard to the Ɵ notation, this can be a little confusing as not explained in the videos very clearly.  Concretely, this comes together as follows:
 
 <p align = "center">
 <img src=../Images\neuralnetwork10.PNG width=100%>

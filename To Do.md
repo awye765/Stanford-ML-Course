@@ -31,6 +31,8 @@
 
 - https://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
 
+- https://www.mathsisfun.com/sets/symbols.html
+
 ## ML Misc
 - [ ] Chess A.I. tutorial
 - [ ] Spam filter tutorial (OR book)
@@ -53,3 +55,5 @@
 - http://christiansch.github.io/machine-learning-cheat-sheet/index.html
 
 - https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
+
+- https://www.mathsisfun.com/sets/symbols.html

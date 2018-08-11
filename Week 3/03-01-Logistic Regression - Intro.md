@@ -147,3 +147,5 @@ Consider linear regression on categorical {0, 1} outcomes to see why this is a p
 - https://www.quora.com/Why-is-logistic-regression-considered-a-linear-model
 
 - https://www.quora.com/Why-is-logistic-regression-called-regression-if-it-doesnt-model-continuous-outcomes
+
+- https://towardsdatascience.com/the-logistic-regression-algorithm-75fe48e21cfa 
