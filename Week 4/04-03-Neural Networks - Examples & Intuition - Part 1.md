@@ -2,6 +2,10 @@
 
 # Building Logic Gates with Neural Networks
 
+## Why Demonstrate This?
+
+Demonstrating the below helps build an intuitive understanding of how neural networks can be configured to replicate logic gates to perform increasingly complex decision making.
+
 ## Example 1: AND gate
 
 #### Defining the Problem
@@ -154,6 +158,16 @@ This is a function that will output 1 if and only if <b> one but not both inputs
 
 #### Demonstrating the Solution
 
+<p align = "center">
+<img src=../Images\XORneuralnetwork.PNG width=100%>
+</p>
+
+To solve for a XNOR neural network we must combine:
+
+1. an NOR neural network (ORANGE); AND
+
+2. a NAND neural network (BLUE).
+
 ## Example 7: XNOR gate
 
 #### Defining the Problem
@@ -172,10 +186,22 @@ This is a function that will output 1 if and only if <b> both inputs are the sam
 
 #### Demonstrating the Solution
 
+<p align = "center">
+<img src=../Images\XNORneuralnetwork.PNG width=100%>
+</p>
+
+To solve for a XNOR neural network we must combine:
+
+1. an AND neural network (RED);
+
+2. a NOR neural network (BLUE); AND
+
+3. an OR neural network (GREEN).
+
 #### Useful Resources
 
 - http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/index.html
 
-- https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b (re the XOR problem for neural networks)
+- https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b (re the XOR and XNOR problems for neural networks re inability to linearly separate this types of classification)
 
 - https://www.quora.com/How-can-we-design-a-neural-network-that-acts-as-an-XOR-gate
