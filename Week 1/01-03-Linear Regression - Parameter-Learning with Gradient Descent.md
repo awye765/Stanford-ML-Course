@@ -144,3 +144,5 @@ Ignoring the derivative function for now:
 - https://hackernoon.com/life-is-gradient-descent-880c60ac1be8
 
 - https://storage.googleapis.com/supplemental_media/udacityu/315142919/Gradient%20Descent.pdf
+
+- https://medium.com/ai-society/hello-gradient-descent-ef74434bdfa5

@@ -33,11 +33,11 @@ To recap:
 
 2. Where:
 
-  (a) J(θ<sub>0</sub>,θ<sub>1</sub>) = 1/2m...
+    (a) J(θ<sub>0</sub>,θ<sub>1</sub>) = 1/2m...
 
-  and
+    and
 
-  (b) h<sub>θ</sub>(x) = θ<sub>0</sub> + θ<sub>1</sub> * X.
+    (b) h<sub>θ</sub>(x) = θ<sub>0</sub> + θ<sub>1</sub> * X.
 
 3. So that for j = 0 and j = 1 the partial derivative of the cost function for each is:
 

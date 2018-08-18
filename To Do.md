@@ -57,3 +57,19 @@
 - https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
 
 - https://www.mathsisfun.com/sets/symbols.html
+
+- http://www.3blue1brown.com/
+
+##### Jupyter Notebook Implementations of Andrew Ng in python
+
+- https://github.com/JWarmenhoven/Coursera-Machine-Learning
+
+- https://github.com/endeneer1/andrew-ng-machine-learning
+
+- https://github.com/dibgerge/ml-coursera-python-assignments
+
+- https://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
+
+- https://github.com/masinoa/machine_learning
+
+https://github.com/chinmaydas96/Coursera-Machine-Learning-Python
