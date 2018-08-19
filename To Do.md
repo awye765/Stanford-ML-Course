@@ -18,7 +18,7 @@
 - [x] Week 1
 - [x] Week 2
 - [x] Week 3
-- [ ] Week 4
+- [x] Week 4
 - [ ] Week 5
 - [ ] Week 6
 - [ ] Week 7
@@ -26,7 +26,8 @@
 - [ ] Week 9
 - [ ] Week 10
 - [ ] Week 11
-
+- [ ] 3blue1brown vector videos
+- [ ] Python implementations of weeks 1 - 6
 #### Useful Resources
 
 - https://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
@@ -72,4 +73,10 @@
 
 - https://github.com/masinoa/machine_learning
 
-https://github.com/chinmaydas96/Coursera-Machine-Learning-Python
+- https://github.com/chinmaydas96/Coursera-Machine-Learning-Python
+
+- http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb#LaTeX
+
+- https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html
+
+https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
