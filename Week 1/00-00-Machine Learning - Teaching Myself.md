@@ -16,12 +16,12 @@ To learn how to <b>understand</b> and <b>apply</b> key machine learning techniqu
 
 #### <u>Supervised</u> Learning Techniques
 
-- [ ] Linear Regression - single variable
-- [ ] Linear Regression - multiple variables
-- [ ] Logistic Regression
+- [X] Linear Regression - single variable
+- [X] Linear Regression - multiple variables
+- [X] Logistic Regression
 - [ ] Classification
-- [ ] Regularization
-- [ ] Neural Networks - intro
+- [X] Regularization
+- [X] Neural Networks - intro
 - [ ] Neural Networks
 - [ ] Support Vector Machines
 
